@@ -49,7 +49,7 @@ function QuizQuestion() {
           </div>
           <section className="next-question mt-4 mb-2 d-flex">
           <button
-              className="btn btn-block w-25 btn-warning ms-auto"
+              className="btn btn-block w-25 btn-warning ms-auto quiz-questinnare-submit"
               onClick={nextQuestionHandler}
             >
              {!isLastQues && <span>Next Question</span> }

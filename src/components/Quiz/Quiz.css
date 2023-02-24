@@ -14,3 +14,15 @@ section.quiz-container
 {
     width: 90vw;
 }
+@media screen and (max-width:768px) {
+    button.answer-btn
+    {
+        white-space: nowrap;
+        width: 50% !important;
+        font-size: 12px;
+    }
+    button.btn.quiz-questinnare-submit
+    {
+        width:auto !important;
+    }
+  }

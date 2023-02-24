@@ -11,7 +11,7 @@ function QuizResult({ result, playAgainHandler }) {
   } else if (result > 30 && result < 70) {
     feedBackContent = (
       <h3>
-        Great!..you did well. <p className="mt-2" style={{ fontSize: "48px" }}>&#128522;</p>
+        Good!..you did well. <p className="mt-2" style={{ fontSize: "48px" }}>&#128578;</p>
       </h3>
     );
   } else if (result > 70) {
