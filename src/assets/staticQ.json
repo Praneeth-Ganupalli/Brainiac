@@ -1,0 +1,125 @@
+{
+    "response_code":0,
+    "results":[
+       {
+          "category":"History",
+          "type":"multiple",
+          "difficulty":"easy",
+          "question":"Which German field marshal was known as the `Desert Fox`?",
+          "correct_answer":"Erwin Rommel",
+          "incorrect_answers":[
+             "Ernst Busch",
+             "Wolfram Freiherr von Richthofen",
+             "Wilhelm List"
+          ]
+       },
+       {
+          "category":"History",
+          "type":"multiple",
+          "difficulty":"easy",
+          "question":"Who discovered Penicillin?",
+          "correct_answer":"Alexander Flemming",
+          "incorrect_answers":[
+             "Marie Curie",
+             "Alfred Nobel",
+             "Louis Pasteur"
+          ]
+       },
+       {
+          "category":"History",
+          "type":"multiple",
+          "difficulty":"easy",
+          "question":"Which one of these tanks was designed and operated by the United Kingdom?",
+          "correct_answer":"Tog II",
+          "incorrect_answers":[
+             "M4 Sherman",
+             "Tiger H1",
+             "T-34"
+          ]
+       },
+       {
+          "category":"History",
+          "type":"multiple",
+          "difficulty":"easy",
+          "question":"Which of the following ancient peoples was NOT classified as Hellenic (Greek)?",
+          "correct_answer":"Illyrians",
+          "incorrect_answers":[
+             "Dorians",
+             "Achaeans",
+             "Ionians"
+          ]
+       },
+       {
+          "category":"History",
+          "type":"multiple",
+          "difficulty":"easy",
+          "question":"Which of these countries remained neutral during World War II?",
+          "correct_answer":"Switzerland",
+          "incorrect_answers":[
+             "United Kingdom",
+             "France",
+             "Italy"
+          ]
+       },
+       {
+          "category":"History",
+          "type":"multiple",
+          "difficulty":"easy",
+          "question":"In 1939, Britain and France declared war on Germany after it invaded which country?",
+          "correct_answer":"Poland",
+          "incorrect_answers":[
+             "Czechoslovakia",
+             "Austria",
+             "Hungary"
+          ]
+       },
+       {
+          "category":"History",
+          "type":"multiple",
+          "difficulty":"easy",
+          "question":"What year did World War I begin?",
+          "correct_answer":"1914",
+          "incorrect_answers":[
+             "1905",
+             "1919",
+             "1925"
+          ]
+       },
+       {
+          "category":"History",
+          "type":"multiple",
+          "difficulty":"easy",
+          "question":"Which of the following was Brazil was a former colony under?",
+          "correct_answer":"Portugal",
+          "incorrect_answers":[
+             "Spain",
+             "The Netherlands",
+             "France"
+          ]
+       },
+       {
+          "category":"History",
+          "type":"multiple",
+          "difficulty":"easy",
+          "question":"What was the name commonly given to the ancient trade routes that connected the East and West of Eurasia?",
+          "correct_answer":"Silk Road",
+          "incorrect_answers":[
+             "Spice Road",
+             "Clay Road",
+             "Salt Road"
+          ]
+       },
+       {
+          "category":"History",
+          "type":"multiple",
+          "difficulty":"easy",
+          "question":"The Ottoman Empire was dissolved after their loss in which war?",
+          "correct_answer":"World War I",
+          "incorrect_answers":[
+             "Crimean War",
+             "Serbian Revolution",
+             "Second Balkan War"
+          ]
+       }
+    ]
+ }

@@ -1,0 +1,16 @@
+div.answers-container 
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+button.answer-btn
+{
+    flex-basis:33%;
+}
+section.quiz-container
+{
+    width: 90vw;
+}
