@@ -21,7 +21,7 @@ section.quiz-container
     }
     button.answer-btn
     {
-        white-space: nowrap;
+        /* white-space: nowrap; */
         width: 100% !important;
         font-size: 12px;
     }
