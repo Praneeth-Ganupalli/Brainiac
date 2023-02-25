@@ -6,7 +6,6 @@ import QuizQuestion from './components/Quiz/QuizQuestion';
 import QuizResult from './components/Quiz/QuizResult';
 function App() {
   const ctx=useQuizContext();
-  console.log(ctx,"ques");
   return (
     <main>
       {ctx.showForm && <QuizForm />}

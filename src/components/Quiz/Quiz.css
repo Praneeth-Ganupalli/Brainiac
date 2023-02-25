@@ -15,10 +15,14 @@ section.quiz-container
     width: 90vw;
 }
 @media screen and (max-width:768px) {
+    div.answers-container 
+    {
+        flex-direction: column;
+    }
     button.answer-btn
     {
         white-space: nowrap;
-        width: 50% !important;
+        width: 100% !important;
         font-size: 12px;
     }
     button.btn.quiz-questinnare-submit

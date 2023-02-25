@@ -1,7 +1,6 @@
 import React from 'react'
 
 function DropDown({options,onSelect}) {
-    console.log("changedd");
     const changeDropDownVal=(e)=>{
         onSelect(e.target.value);
     }
