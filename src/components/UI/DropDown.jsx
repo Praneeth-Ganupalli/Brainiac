@@ -5,7 +5,7 @@ function DropDown({options,onSelect}) {
         onSelect(e.target.value);
     }
   return (
-    <select className='form-control form-select mt-2' onChange={changeDropDownVal} >
+    <select className='form-control form-select mt-2' onChange={changeDropDownVal} disabled >
         {options.length>0 && options.map(option=>{
             return <option key={option.key} value={option.value}>{option.key}</option>
         })}

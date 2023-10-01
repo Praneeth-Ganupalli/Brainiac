@@ -1,0 +1,902 @@
+[
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What does HTML stand for?",
+        "correct_answer": "Hypertext Markup Language",
+        "incorrect_answers": [
+            "Hyperlink and Text Markup Language",
+            "Home Tool Markup Language",
+            "Hypertext and Text Markup Language"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you create a horizontal line in HTML?",
+        "correct_answer": "&lt;hr&gt;",
+        "incorrect_answers": [
+            "&lt;line&gt;",
+            "&lt;linebreak&gt;",
+            "&lt;hline&gt;"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Explain the purpose of the &lt;time&gt; element in HTML5.",
+        "correct_answer": "It is used to represent a specific period in time or a range, providing semantic information about the time-related content.",
+        "incorrect_answers": [
+            "It is used to create timers and countdowns in HTML.",
+            "It is used for displaying the current time on a webpage.",
+            "It is used to specify the duration of a video or audio element in HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the 'required' attribute in an HTML form?",
+        "correct_answer": "It specifies that an input field must be filled out before submitting the form, providing client-side validation.",
+        "incorrect_answers": [
+            "It defines the required fields for server-side validation.",
+            "It indicates that the form itself is required to be filled out.",
+            "It ensures that the form data is required for asynchronous processing."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Evaluate the following HTML code for a table. Identify the option that adheres to good practice.",
+        "correct_answer": "<table><tr><th>Header 1</th><th>Header 2</th></tr><tr><td>Data 1</td><td>Data 2</td></tr></table>",
+        "incorrect_answers": [
+            "<table><tr><td>Header 1</td><td>Header 2</td></tr><tr><td>Data 1</td><td>Data 2</td></tr></table>",
+            "<div><p>Header 1</p><p>Header 2</p></div><div><p>Data 1</p><p>Data 2</p></div>",
+            "<tr><th>Header 1</th><th>Header 2</th></tr><tr><td>Data 1</td><td>Data 2</td></tr>"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you create an unordered list in HTML?",
+        "correct_answer": "&lt;ul&gt; ... &lt;/ul&gt;",
+        "incorrect_answers": [
+            "&lt;ol&gt; ... &lt;/ol&gt;",
+            "&lt;list&gt; ... &lt;/list&gt;",
+            "&lt;li&gt; ... &lt;/li&gt;"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Consider the 'type' attribute in an HTML form input with 'file'. What does it indicate?",
+        "correct_answer": "The 'type=\"file\"' attribute is used to create a file input field, allowing users to upload files from their device.",
+        "incorrect_answers": [
+            "The 'type=\"file\"' attribute defines the font style of the input field.",
+            "The 'type=\"file\"' attribute controls the form's layout and positioning.",
+            "The 'type=\"file\"' attribute is a deprecated feature and should be avoided in modern HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In a dynamic web application, elements need to be movable by users. What attribute is frequently used to make this possible?",
+        "correct_answer": "draggable attribute commonly associated with enhancing user interaction by allowing elements to be moved within a webpage.",
+        "incorrect_answers": [
+            "An attribute often used for defining the font size of an element.",
+            "An attribute typically used for creating hyperlinks in HTML.",
+            "An attribute that is considered obsolete and should be avoided in modern HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you create a radio button in an HTML form?",
+        "correct_answer": "The '<input type=\"radio\">' element is used to create a radio button in an HTML form.",
+        "incorrect_answers": [
+            "The '<button>' element is used to create a radio button.",
+            "The '<radio>' element is used to create a radio button.",
+            "The '<select>' element is used to create a radio button."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "When creating a set of radio buttons in an HTML form, how can you make one of the options pre-selected on page load?",
+        "correct_answer": "Add the 'checked' attribute to the desired radio button.",
+        "incorrect_answers": [
+            "Use the 'selected' attribute on the desired radio button.",
+            "Apply the 'default' attribute to the radio button of choice.",
+            "Assign the 'initial' attribute to the radio button you want pre-selected."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How to set a favicon for a webpage?",
+        "correct_answer": "You can set a favicon for a webpage in HTML by adding the '<link>' element within the '<head>' section with the 'rel' attribute set to 'icon' and the 'href' attribute pointing to the favicon file. For example: '&lt;head&gt;&lt;link rel='icon' href='favicon.ico'&gt;&lt;/head&gt;'.",
+        "incorrect_answers": [
+            "You can set a favicon using the 'src' attribute in the '<img>' tag.",
+            "You can set a favicon using the 'favicon' attribute in the '<body>' tag.",
+            "You can set a favicon using the 'logo' element in the '<header>' tag."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How to display blank spaces in HTML correctly?",
+        "correct_answer": "To display blank spaces in HTML, you can use the '&amp;nbsp;' entity or the '&lt;pre&gt;' element to preserve multiple consecutive spaces. For example: '&lt;p&gt;This&amp;nbsp;&amp;nbsp;is&amp;nbsp;&amp;nbsp;an&amp;nbsp;example&lt;/p&gt;' or '&lt;pre&gt;  This   is   an   example  &lt;/pre&gt;'.",
+        "incorrect_answers": [
+            "To display blank spaces in HTML, you can use the 'blank' element like '&lt;blank&gt;This is an example&lt;/blank&gt;'.",
+            "To display blank spaces in HTML, you can use the 'space' attribute in the '<body>' tag.",
+            "To display blank spaces in HTML, you don't need any specific syntax; regular spaces are sufficient."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In the context of an HTML form, why is the 'name' attribute important?",
+        "correct_answer": "The 'name' attribute serves as a key identifier for form controls, allowing their values to be submitted to the server.",
+        "incorrect_answers": [
+            "The 'name' attribute determines the visual appearance of form controls.",
+            "The 'name' attribute specifies the input type for each form control.",
+            "The 'name' attribute is optional and does not play a significant role in form processing."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What does the 'maxlength' attribute specify in an HTML form?",
+        "correct_answer": "The 'maxlength' attribute specifies the maximum number of characters allowed in a form field.",
+        "incorrect_answers": [
+            "The 'maxlength' attribute sets the minimum number of characters required in a form field.",
+            "The 'maxlength' attribute defines the width of a form field.",
+            "The 'maxlength' attribute determines the font style of a form field."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How do you give an image and its caption in HTML?",
+        "correct_answer": "You can give an image and its caption in HTML using the '<figure>' and '<figcaption>' elements. For example: '&lt;figure&gt;&lt;img src='image.jpg' alt='Image'&gt;&lt;figcaption&gt;Caption&lt;/figcaption&gt;&lt;/figure&gt;'.",
+        "incorrect_answers": [
+            "You can give an image and its caption using the '<img>' element with the 'caption' attribute.",
+            "You can give an image and its caption using the '<caption>' element within the '<img>' tag.",
+            "You can give an image and its caption using the '<caption>' element within the '<figure>' tag."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How to set Roman numbers numbering for an ordered list in HTML?",
+        "correct_answer": "To set Roman numbers numbering for an ordered list in HTML, you can use the 'type' attribute in the '<ol>' (ordered list) tag and set it to 'I'. For example: '&lt;ol type='I'&gt;&lt;li&gt;Item 1&lt;/li&gt;&lt;li&gt;Item 2&lt;/li&gt;&lt;/ol&gt;'.",
+        "incorrect_answers": [
+            "To set Roman numbers numbering, you need to use the 'roman' attribute in the '<ol>' tag.",
+            "To set Roman numbers numbering, you need to use the 'type' attribute in the '<li>' (list item) tag.",
+            "To set Roman numbers numbering, you need to use the 'style' attribute with CSS in the '<ol>' tag."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you create a textarea in an HTML form?",
+        "correct_answer": "The '<textarea>' element is used to create a textarea in an HTML form.",
+        "incorrect_answers": [
+            "The '<input type=\"textarea\">' element is used to create a textarea.",
+            "The '<text>' element is used to create a textarea.",
+            "The '<textfield>' element is used to create a textarea."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Consider the structure of an HTML document with headings. What represents a good practice for ordering headings?",
+        "correct_answer": "Follow a hierarchical structure, starting with 'h1' for the main heading and descending in order (e.g., 'h2', 'h3') for subheadings.",
+        "incorrect_answers": [
+            "Place headings randomly based on visual aesthetics.",
+            "Use only 'h1' for all headings to maintain consistency.",
+            "Start with 'h6' for the main heading and ascend in order for subheadings."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the 'disabled' attribute in an HTML form field?",
+        "correct_answer": "The 'disabled' attribute disables the form field, preventing user interaction and submission.",
+        "incorrect_answers": [
+            "The 'disabled' attribute sets the background color of a form field.",
+            "The 'disabled' attribute defines the padding of a form field.",
+            "The 'disabled' attribute determines the type of form field."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the 'rel' attribute in the &lt;link&gt; element?",
+        "correct_answer": "It defines the relationship between the linked document and the current document. Common values include 'stylesheet' for linking stylesheets and 'icon' for favicons.",
+        "incorrect_answers": [
+            "It specifies the relevance of the linked document to the current document.",
+            "It restricts the access to the linked document based on user roles.",
+            "It determines the rendering speed of the linked document in the browser."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "In an HTML form, how can you make a form field not visible, but ensure it is still sent along with the form data?",
+        "correct_answer": "Use type hidden in form feild",
+        "incorrect_answers": [
+            "Apply CSS to set 'display: none;' or 'visibility: hidden;' on the form field.",
+            "Use the 'invisible' class on the form field.",
+            "The 'display: none;' or 'visibility: hidden;' properties cannot be used to hide form fields in HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "When creating a file input in an HTML form, how can you restrict it to only accept PNG files?",
+        "correct_answer": "Use the 'accept' attribute and set it to 'image/png'.",
+        "incorrect_answers": [
+            "Set the 'filetype' attribute to 'png'.",
+            "Apply the 'restriction' attribute and specify 'image/png'.",
+            "The 'accept' attribute is not used to restrict file types in HTML forms."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the &lt;article&gt; element in HTML5?",
+        "correct_answer": "It is used to define a self-contained piece of content that could be distributed and reused independently, such as a news article or a blog post.",
+        "incorrect_answers": [
+            "It represents the main content of the document, excluding headers and footers.",
+            "It defines a section that contains navigation links.",
+            "It specifies additional information about the document's author or copyright."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you create a button in HTML?",
+        "correct_answer": "&lt;button&gt; ... &lt;/button&gt;",
+        "incorrect_answers": [
+            "&lt;input type='button'&gt; ... &lt;/input&gt;",
+            "&lt;a&gt; ... &lt;/a&gt;",
+            "&lt;btn&gt; ... &lt;/btn&gt;"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you create a text input with a placeholder in an HTML form?",
+        "correct_answer": "&lt;input type='text' placeholder='Enter text'&gt;",
+        "incorrect_answers": [
+            "&lt;input type='text' hint='Enter text'&gt;",
+            "&lt;textinput placeholder='Enter text'&gt;",
+            "&lt;textbox placeholder='Enter text'&gt;"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the &lt;span&gt; element in HTML?",
+        "correct_answer": "It is an inline container used to apply styles or scripting to a specific portion of text within a larger block of content.",
+        "incorrect_answers": [
+            "It defines a section that contains navigation links.",
+            "It represents the main content of the document.",
+            "It is used to create a block-level container."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Explain the concept of semantic HTML.",
+        "correct_answer": "Semantic HTML involves using elements that carry meaning about the structure of the web page content, making it more understandable for both browsers and developers.",
+        "incorrect_answers": [
+            "Semantic HTML refers to the use of images to enhance the visual appeal of a webpage.",
+            "Semantic HTML is a programming language used for server-side scripting.",
+            "Semantic HTML is a design pattern for creating visually appealing web pages."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the purpose of the 'controls' attribute in the '<video>' element?",
+        "correct_answer": "The 'controls' attribute adds video playback controls, such as play, pause, and volume, to the '<video>' element.",
+        "incorrect_answers": [
+            "The 'controls' attribute defines the video dimensions in the '<video>' element.",
+            "The 'controls' attribute specifies the encoding of video data in the '<video>' element.",
+            "The 'controls' attribute controls the alignment of the '<video>' element."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How does the &lt;meta name='viewport'&gt; tag contribute to responsive web design?",
+        "correct_answer": "It sets the viewport properties, such as width and initial scale, to ensure proper rendering and scaling on various devices, enhancing the responsiveness of a web page.",
+        "incorrect_answers": [
+            "It controls the font size and style of the text on a webpage.",
+            "It defines the language in which the document is written.",
+            "It specifies the character encoding for the HTML document."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "How can you add subtitles to a video in HTML using the '<track>' element? Include attributes for kind, src, and srclang.",
+        "correct_answer": "You can add subtitles to a video in HTML using the '<track>' element with attributes 'kind' set to 'subtitles', 'src' pointing to the subtitle file, and 'srclang' specifying the language. For example: '<track kind='subtitles' src='subtitles.vtt' srclang='en'>'.",
+        "incorrect_answers": [
+            "You can add subtitles to a video using the '<sub>' element with 'src' and 'srclang' attributes.",
+            "You can add subtitles to a video using the '<subtitle>' element with 'file' and 'language' attributes.",
+            "You can add subtitles to a video using the '<caption>' element with 'file' and 'language' attributes."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How to set the title for a web page in HTML?",
+        "correct_answer": "You can set the title for a web page in HTML using the '<title>' element within the '<head>' section. For example: '&lt;head&gt;&lt;title&gt;Page Title&lt;/title&gt;&lt;/head&gt;'.",
+        "incorrect_answers": [
+            "You can set the title using the 'name' attribute in the '<meta>' tag.",
+            "You can set the title using the 'caption' element in the '<body>' tag.",
+            "You can set the title using the 'label' element in the '<form>' tag."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the &lt;iframe&gt; element in HTML?",
+        "correct_answer": "It is used to embed another document within the current HTML document, such as displaying a video or a map from an external source.",
+        "incorrect_answers": [
+            "It defines a section that contains navigation links.",
+            "It creates a block-level container.",
+            "It is used for creating bulleted lists."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "How can you set a thumbnail for a video in HTML using the '<video>' element?",
+        "correct_answer": "You can set a thumbnail for a video in HTML using the 'poster' attribute in the '<video>' element, specifying the URL of the image. For example: '<video src='video.mp4' poster='thumbnail.jpg'></video>'.",
+        "incorrect_answers": [
+            "You can set a thumbnail for a video using the 'thumbnail' attribute in the '<video>' element.",
+            "You can set a thumbnail for a video using the '<image>' element within the '<video>' tag.",
+            "You can set a thumbnail for a video using the 'preview' attribute in the '<video>' element."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you create a hyperlink that opens in a new tab or window?",
+        "correct_answer": "Adding the 'target='_blank'' attribute to the &lt;a&gt; element will make the link open in a new tab or window.",
+        "incorrect_answers": [
+            "Adding the 'style='new-window'' attribute to the &lt;a&gt; element.",
+            "Including the 'newtab' value in the 'href' attribute of the &lt;a&gt; element.",
+            "Enclosing the &lt;a&gt; element within a &lt;newtab&gt; container."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How does the 'colspan' attribute work in an HTML table?",
+        "correct_answer": "'colspan' defines the number of columns a table cell should span horizontally, allowing cells to occupy multiple columns.",
+        "incorrect_answers": [
+            "'colspan' determines the color span of a table cell.",
+            "'colspan' sets the font size of a table cell.",
+            "'colspan' specifies the vertical span of a table cell."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "very_hard",
+        "question": "Explain the purpose of the 'contenteditable' attribute in HTML and provide an example of how it can be used.",
+        "correct_answer": "The 'contenteditable' attribute makes an element editable by the user. For example, '<div contenteditable='true'>This text can be edited by the user.</div>'.",
+        "incorrect_answers": [
+            "The 'contenteditable' attribute is used for defining the content of a script in HTML.",
+            "The 'contenteditable' attribute is used for specifying the layout of a page in HTML.",
+            "The 'contenteditable' attribute is an obsolete tag and is not used in modern HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you embed an audio file in HTML?",
+        "correct_answer": "The &lt;audio&gt; element is used to embed audio files. For example: &lt;audio src='audio.mp3' controls&gt;&lt;/audio&gt;",
+        "incorrect_answers": [
+            "The &lt;sound&gt; element is used to embed audio files.",
+            "The &lt;music&gt; element is used to embed audio files.",
+            "The &lt;media&gt; element is used to embed audio files."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the &lt;abbr&gt; element in HTML?",
+        "correct_answer": "&lt;abbr&gt; is used to define an abbreviation or acronym, providing additional information when the user hovers over the text.",
+        "incorrect_answers": [
+            "&lt;abbr&gt; is used for creating block-level containers.",
+            "&lt;abbr&gt; is used to represent the main content of the document.",
+            "&lt;abbr&gt; is used for specifying the character encoding for the HTML document."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you create a checkbox input in an HTML form?",
+        "correct_answer": "The &lt;input&gt; element with 'type='checkbox'' creates a checkbox input. For example: &lt;input type='checkbox' name='example' id='example'&gt;",
+        "incorrect_answers": [
+            "The &lt;checkbox&gt; element creates a checkbox input.",
+            "The &lt;check&gt; element generates a checkbox input.",
+            "The &lt;input&gt; element with 'type='check'' creates a checkbox input."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Explain the purpose of the 'class' attribute in HTML and provide an example of how it can be used.",
+        "correct_answer": "The 'class' attribute is used to specify one or more class names for an HTML element, allowing you to apply styles or script functionality to multiple elements. For example: '<p class='important-text'>This is an important paragraph.</p>'.",
+        "incorrect_answers": [
+            "The 'class' attribute is used for defining the layout of an HTML page.",
+            "The 'class' attribute is used for creating hyperlinks.",
+            "The 'class' attribute is an obsolete tag and is not used in modern HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Explain the difference between &lt;div&gt; and &lt;span&gt; elements.",
+        "correct_answer": "&lt;div&gt; is a block-level container used for grouping block-level elements, while &lt;span&gt; is an inline container used for grouping inline elements.",
+        "incorrect_answers": [
+            "&lt;div&gt; is an inline container, and &lt;span&gt; is a block-level container.",
+            "&lt;div&gt; is used for representing text, and &lt;span&gt; is used for images.",
+            "&lt;div&gt; is used for styling, and &lt;span&gt; is used for scripting."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Explain the purpose of the &lt;header&gt; and &lt;footer&gt; elements in HTML5.",
+        "correct_answer": "&lt;header&gt; is used to define the header section of a document or a section, while &lt;footer&gt; is used for the footer section.",
+        "incorrect_answers": [
+            "&lt;header&gt; is used for creating bulleted lists, and &lt;footer&gt; is used for numbered lists.",
+            "&lt;header&gt; is used to create dropdown menus, and &lt;footer&gt; is used for checkboxes.",
+            "&lt;header&gt; represents the main content, and &lt;footer&gt; defines navigation links."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the 'autocomplete' attribute in an HTML form?",
+        "correct_answer": "The 'autocomplete' attribute enables or disables autocomplete suggestions for form fields, improving user experience.",
+        "incorrect_answers": [
+            "The 'autocomplete' attribute determines the font style for form fields.",
+            "The 'autocomplete' attribute specifies the encoding of form data.",
+            "The 'autocomplete' attribute controls the alignment of form elements."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Explain the purpose of the 'id' attribute in HTML and provide an example of how it can be used.",
+        "correct_answer": "The 'id' attribute is used to uniquely identify an HTML element. It is often used for styling with CSS or scripting with JavaScript. For example: '<div id='unique-container'>This is a unique container.</div>'.",
+        "incorrect_answers": [
+            "The 'id' attribute is used for creating lists in HTML.",
+            "The 'id' attribute is used for defining the font style of an HTML element.",
+            "The 'id' attribute is an obsolete tag and is not used in modern HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you add comments in HTML?",
+        "correct_answer": "Comments in HTML are added using &lt;!-- Comment goes here --&gt;.",
+        "incorrect_answers": [
+            "Comments in HTML are added using // Comment goes here //.",
+            "Comments in HTML are added using /* Comment goes here */.",
+            "Comments in HTML are added using <!-- Comment goes here."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the &lt;fieldset&gt; and &lt;legend&gt; elements in an HTML form?",
+        "correct_answer": "&lt;fieldset&gt; groups related elements in a form, and &lt;legend&gt; provides a caption for the &lt;fieldset&gt;.",
+        "incorrect_answers": [
+            "&lt;fieldset&gt; is used for creating dropdown lists, and &lt;legend&gt; is used for checkboxes.",
+            "&lt;fieldset&gt; represents the main content, and &lt;legend&gt; defines navigation links.",
+            "&lt;fieldset&gt; specifies the encoding of form data, and &lt;legend&gt; controls the alignment of form elements."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you create a dropdown list in HTML?",
+        "correct_answer": "The &lt;select&gt; element is used to create a dropdown list, and &lt;option&gt; represents each item in the list. For example: &lt;select&gt;&lt;option value='option1'&gt;Option 1&lt;/option&gt;&lt;option value='option2'&gt;Option 2&lt;/option&gt;&lt;option value='option3'&gt;Option 3&lt;/option&gt;&lt;/select&gt;",
+        "incorrect_answers": [
+            "The &lt;dropdown&gt; element is used to create a dropdown list.",
+            "The &lt;list&gt; element is used to create a dropdown list.",
+            "The &lt;menu&gt; element is used to create a dropdown list."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the 'target' attribute in the &lt;a&gt; element?",
+        "correct_answer": "The 'target' attribute specifies where to open the linked document. For example, 'target='_blank'' opens the link in a new tab or window.",
+        "incorrect_answers": [
+            "The 'target' attribute defines the relevance of the linked document to the current document.",
+            "The 'target' attribute restricts the access to the linked document based on user roles.",
+            "The 'target' attribute determines the rendering speed of the linked document in the browser."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the purpose of the 'hidden' attribute in HTML?",
+        "correct_answer": "The 'hidden' attribute is used to hide an element from being displayed on the page. It is commonly used for content that should be available for scripting but not visible to users.",
+        "incorrect_answers": [
+            "The 'hidden' attribute defines the relevance of the element to the current document.",
+            "The 'hidden' attribute specifies the character encoding for the HTML document.",
+            "The 'hidden' attribute ensures that the element is required for form submission."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Explain the difference between GET and POST methods in HTML forms.",
+        "correct_answer": "'GET' is used for requesting data from a specified resource, and the parameters are included in the URL. 'POST' is used for submitting data to be processed to a specified resource, and the parameters are included in the request body.",
+        "incorrect_answers": [
+            "'GET' is used for submitting data, and 'POST' is used for requesting data.",
+            "'GET' and 'POST' methods are interchangeable and can be used interchangeably.",
+            "'GET' and 'POST' methods are used for the same purpose with no differences in functionality."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you embed a video in HTML?",
+        "correct_answer": "You can use the &lt;video&gt; element to embed videos. For example: &lt;video src='example.mp4' controls&gt;&lt;/video&gt;",
+        "incorrect_answers": [
+            "You can use the &lt;media&gt; element to embed videos.",
+            "You can use the &lt;embed&gt; element to embed videos.",
+            "You can use the &lt;source&gt; element to embed videos."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Explain the purpose of the 'style' attribute in HTML and provide an example of its usage.",
+        "correct_answer": "The 'style' attribute is used to apply inline CSS styles to an HTML element. For example: '<p style='color: red; font-size: 16px;'>This is a styled paragraph.</p>'.",
+        "incorrect_answers": [
+            "The 'style' attribute is used for creating hyperlinks in HTML.",
+            "The 'style' attribute is used for defining the layout of an HTML page.",
+            "The 'style' attribute is an obsolete tag and is not used in modern HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How does the 'doctype' declaration affect the rendering of a web page?",
+        "correct_answer": "The 'doctype' declaration defines the document type and version of HTML used in a web page. It helps browsers render the page correctly by switching between different rendering modes.",
+        "incorrect_answers": [
+            "The 'doctype' declaration sets the font style for the entire web page.",
+            "The 'doctype' declaration controls the alignment of elements on the web page.",
+            "The 'doctype' declaration determines the color scheme of the web page."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Explain the difference between block and inline elements.",
+        "correct_answer": "Block elements start on a new line and take up the full width available, stacking vertically. Inline elements do not start on a new line and only take up as much width as necessary, stacking horizontally.",
+        "incorrect_answers": [
+            "Block elements are used for inline text, and inline elements are used for block-level containers.",
+            "Block elements are always centered on the page, and inline elements are always aligned to the left.",
+            "Block elements and inline elements have no differences in their layout and behavior."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Choose the correct HTML element for the largest heading:",
+        "correct_answer": "&lt;h1&gt; ... &lt;/h1&gt;",
+        "incorrect_answers": [
+            "&lt;heading&gt; ... &lt;/heading&gt;",
+            "&lt;head&gt; ... &lt;/head&gt;",
+            "&lt;h6&gt; ... &lt;/h6&gt;"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the correct HTML for adding a background color?",
+        "correct_answer": "&lt;body style='background-color: #e6e6e6;'&gt;",
+        "incorrect_answers": [
+            "&lt;background style='color: #e6e6e6;'&gt;",
+            "&lt;bgcolor='#e6e6e6'&gt;",
+            "&lt;body background='#e6e6e6'&gt;"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Choose the correct HTML element to define important text:",
+        "correct_answer": "&lt;strong&gt; ... &lt;/strong&gt;",
+        "incorrect_answers": [
+            "&lt;em&gt; ... &lt;/em&gt;",
+            "&lt;bold&gt; ... &lt;/bold&gt;",
+            "&lt;important&gt; ... &lt;/important&gt;"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How do you create links to sections within the same web-page?",
+        "correct_answer": "You can create links to sections within the same web page using the 'a' element with the 'href' attribute pointing to the 'id' of the target section. For example: &lt;a href='#section1'&gt;Go to Section 1&lt;/a&gt;",
+        "incorrect_answers": [
+            "You can create links using the 'link' element with the 'target' attribute set to the section ID.",
+            "You can create links using the 'url' element with the 'path' attribute set to the section ID.",
+            "You can create links using the 'anchor' element with the 'name' attribute set to the section ID."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Explain the purpose of the 'data-*' attributes in HTML and provide an example of how they can be used.",
+        "correct_answer": "The 'data-*' attributes are used to store custom data private to the page or application. They can be accessed and manipulated with JavaScript. For example: '<div data-user-id='123'>User information here.</div>'.",
+        "incorrect_answers": [
+            "The 'data-*' attributes are used for creating forms in HTML.",
+            "The 'data-*' attributes are used for defining the font style of an HTML element.",
+            "The 'data-*' attributes are obsolete tags and are not used in modern HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Can a single text link point to two different web-pages?",
+        "correct_answer": "No, a single text link typically points to a single web page. The 'href' attribute in the HTML '<a>' (anchor) element is used to specify the URL of the page the link leads to. If you want a text link to point to two different web pages, you would need to create two separate links, each with its own 'href' attribute pointing to the respective URLs.",
+        "incorrect_answers": [
+            "Yes, a single text link can point to multiple web pages simultaneously.",
+            "No, but you can achieve this using JavaScript.",
+            "Yes, by separating the URLs with a comma in the 'href' attribute."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What will happen if the doctype is not specified in an HTML web-page?",
+        "correct_answer": "Without a doctype declaration, the web browser may not render the page correctly, leading to inconsistencies in layout and styling. It's crucial for defining the document type and version of HTML used.",
+        "incorrect_answers": [
+            "The web page will display normally, and there will be no impact.",
+            "The absence of a doctype only affects SEO but not rendering.",
+            "The browser will prompt the user to specify the doctype before rendering the page."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Are HTML tags case-sensitive?",
+        "correct_answer": "No, HTML tags are not case-sensitive; they can be written in any case.",
+        "incorrect_answers": [
+            "Yes, HTML tags are case-sensitive. For example, '<div>' and '<DIV>' are considered different tags in HTML",
+            "HTML tags are case-sensitive only for block-level elements.",
+            "HTML tags are case-sensitive only for inline elements."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Explain the purpose of the 'tabindex' attribute in HTML and provide an example of how it can be used.",
+        "correct_answer": "The 'tabindex' attribute is used to specify the order in which elements should receive focus when the user navigates through a webpage using the keyboard. It allows you to define a custom tab order. For example: '<input type='text' tabindex='3'>'.",
+        "incorrect_answers": [
+            "The 'tabindex' attribute is used for creating hyperlinks in HTML.",
+            "The 'tabindex' attribute is used for defining the font style of an HTML element.",
+            "The 'tabindex' attribute is an obsolete tag and is not used in modern HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which element provides an suggestions feature in a textbox?",
+        "correct_answer": "The 'datalist' element with the 'autocomplete' element provides an autocomplete feature in a textbox",
+        "incorrect_answers": [
+            "The 'form' element with the 'autocomplete' attribute set to 'textbox'.",
+            "The 'auto' element with the 'complete' attribute.",
+            "The 'textbox' element with the 'autocomplete' attribute set to 'on'."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Look at the following HTML code for an image. Which option demonstrates a good practice?",
+        "correct_answer": "<img src='image.jpg' alt='A descriptive image description'>",
+        "incorrect_answers": [
+            "<img src='image.jpg' alt=''>",
+            "<img src='image.jpg'>",
+            "<img alt='A descriptive image description'>"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the minimum number of HTML tags required to create an HTML web page?",
+        "correct_answer": "Three: We can use at least three tags to create a Web page, head, body, html.",
+        "incorrect_answers": [
+            "One. You only need the 'body' tag.",
+            "Three. You need the 'head', 'body', and 'footer' tags.",
+            "Four. You need the 'header', 'main', 'section', and 'footer' tags."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "In HTML, which attribute is often used for providing additional information or tooltips when the user hovers over an element?",
+        "correct_answer": "title attribute that is commonly associated with enhancing accessibility and providing details for screen readers.",
+        "incorrect_answers": [
+            "id attribute frequently used for defining the font style of an HTML element.",
+            "class attribute typically used for creating hyperlinks in HTML.",
+            "tabindex attribute that is considered deprecated and should be avoided in modern HTML, not to be confused with 'alt'."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How to create a copyright symbol in HTML?",
+        "correct_answer": "You can create a copyright symbol in HTML using the '&amp;copy;' entity. For example: '&lt;p&gt;Copyright &copy; 2023 Your Company&lt;/p&gt;'.",
+        "incorrect_answers": [
+            "You can use the '&copy;' element directly, like '&lt;copy&gt;'.",
+            "You can create a copyright symbol using the '&amp;reg;' entity.",
+            "You need to use a special HTML tag, such as '&lt;copyright&gt;', to display the copyright symbol."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Consider the following HTML code for creating a hyperlink. Which option represents a good practice?",
+        "correct_answer": "<a href='https://example.com' title='Visit Example'>Click here to visit Example</a>",
+        "incorrect_answers": [
+            "<a href='#'>Click here</a>",
+            "<a href='https://example.com'>Click here</a>",
+            "<a>https://example.com</a>"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the correct HTML for creating a hyperlink?",
+        "correct_answer": "The correct HTML for creating a hyperlink is '&lt;a href='https://www.example.com'&gt;Click here&lt;/a&gt;'.",
+        "incorrect_answers": [
+            "The correct HTML for creating a hyperlink is '&lt;link url='https://www.example.com'&gt;Click here&lt;/link&gt;'.",
+            "The correct HTML for creating a hyperlink is '&lt;button link='https://www.example.com'&gt;Click here&lt;/button&gt;'.",
+            "The correct HTML for creating a hyperlink is '&lt;a&gt;Click here&lt;/a&gt;'."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Which of these elements are all '<table>' elements?",
+        "correct_answer": "The correct answer is '&lt;thead&gt;', '&lt;tbody&gt;', and '&lt;tfoot&gt;'.",
+        "incorrect_answers": [
+            "The correct answer is '&lt;header&gt;', '&lt;main&gt;', and '&lt;footer&gt;'.",
+            "The correct answer is '&lt;section&gt;', '&lt;article&gt;', and '&lt;nav&gt;'.",
+            "The correct answer is '&lt;p&gt;', '&lt;div&gt;', and '&lt;span&gt;'."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How do you set language in HTML?",
+        "correct_answer": "You can set the language in HTML using the 'lang' attribute in the '<html>' tag. For example: '&lt;html lang='en'&gt;'.",
+        "incorrect_answers": [
+            "You can set the language using the 'language' attribute in the '<meta>' tag.",
+            "You can set the language using the 'lang' attribute in the '<body>' tag.",
+            "You can set the language using the 'locale' attribute in the '<head>' tag."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "How can you highlight text in HTML?",
+        "correct_answer": "You can highlight text in HTML using the '<mark>' element. For example: '&lt;p&gt;This is &lt;mark&gt;highlighted</mark> text.&lt;/p&gt;'.",
+        "incorrect_answers": [
+            "You can highlight text using the '<b>' element.",
+            "You can highlight text using the 'style' attribute with 'background-color'.",
+            "You can highlight text using the '<strong>' element."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is a self-closing tag?",
+        "correct_answer": "A self-closing tag is an HTML tag that doesn't require a closing tag and is closed with a slash before the ending angle bracket. For example: '&lt;br /&gt;' or '&lt;img src='image.jpg' /&gt;'.",
+        "incorrect_answers": [
+            "A self-closing tag is a tag that closes automatically when the HTML document is saved.",
+            "A self-closing tag is a tag that requires a closing tag to function correctly.",
+            "A self-closing tag is a tag that can only be used in programming languages, not in HTML."
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "Where and why is the 'rel=\"noopener\"' attribute used?",
+        "correct_answer": "The 'rel=\"noopener\"' attribute is used in the '<a>' (anchor) tag and is added to the 'rel' attribute. It is used to prevent security vulnerabilities by disallowing the new page or tab to access the window.opener property.",
+        "incorrect_answers": [
+            "The 'rel=\"noopener\"' attribute is used in the '<meta>' tag and is added to control the viewport properties.",
+            "The 'rel=\"noopener\"' attribute is used in the '<body>' tag and is added to specify background color.",
+            "The 'rel=\"noopener\"' attribute is used in the '<img>' tag and is added to specify the image source."
+        ]
+    }
+]

@@ -5,7 +5,7 @@ import { CATEGORY_OPTIONS } from "../../utils/constants";
 import { DIFFICULTY_OPTIONS } from "../../utils/constants";
 import useQuizContext from "../../hooks/use-quiz-context";
 function QuizForm() {
-  const [questionsCount,setQuestionsCount]=useState(5);
+  const [questionsCount,setQuestionsCount]=useState(75);
   const [difficulty,setDifficulty]=useState(DIFFICULTY_OPTIONS[0].value);
   const [category,setCategory]=useState(CATEGORY_OPTIONS[0].value);
   const quizContext=useQuizContext();
@@ -36,7 +36,7 @@ function QuizForm() {
               <form onSubmit={quizFormSubmitHandler}>
                 <div className="form-group mb-2">
                   <label>Number of Questions</label>
-                  <input type="number" className="form-control mt-2" value={questionsCount} onChange={qCountChangeHandler} min={1} max={50} />
+                  <input type="number" className="form-control mt-2" disabled value={questionsCount} onChange={qCountChangeHandler} min={1} max={50} />
                 </div>
                 <div className="form-group mb-3">
                   <label>Category</label>

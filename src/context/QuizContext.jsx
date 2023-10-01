@@ -2,6 +2,7 @@ import { createContext, useReducer } from "react";
 import axios from "axios";
 import { QUIZ_BASE_URL } from "../utils/constants";
 import { formattedChoices } from "../utils/helpers";
+import Ques from "../assets/htmlQuestions.json";
 const intialContext = {
   showForm: true,
   questionnare: [],
@@ -74,11 +75,19 @@ const QuizContextProvider = ({ children }) => {
         `${QUIZ_BASE_URL}?amount=${amount}&category=${category}&difficulty=${difficulty}&type=multiple`
       );
       const data = results.data;
+      function shuffleArray(array) {
+        for (let i = array.length - 1; i > 0; i--) {
+          const j = Math.floor(Math.random() * (i + 1));
+          [array[i], array[j]] = [array[j], array[i]];
+        }
+        return array;
+      }
+      data.results = shuffleArray(Ques);
       if (data && data.results && data.results.length) {
         const formattedQuestionnare = data.results.map((dt) => {
           return {
             question: dt.question,
-            correctAnswer: dt.correct_answer,
+            correctAnswer: dt.correct_answer.replaceAll("<","&lt;").replaceAll(">","&gt;"),
             choices: formattedChoices(dt.correct_answer, dt.incorrect_answers),
           };
         });
